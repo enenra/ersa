@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!-- Created from enenra's Research Spreadsheet on: 2018-08-17 23:01 -->
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlueprintClasses>
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>ERSA_LG_ResearchLab_BPC</SubtypeId>
+      </Id>
+      <DisplayName>Research Lab Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+  </BlueprintClasses>
+  
+  <BlueprintClassEntries>
+    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_TEST_LOC_1_RBP" />
+  </BlueprintClassEntries>
+</Definitions>

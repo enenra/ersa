@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+      <Id>
+        <TypeId>Assembler</TypeId>
+        <SubtypeId>ERSA_LG_ResearchLab</SubtypeId>
+      </Id>
+      <DisplayName>Research Lab</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\ERSA_LG_ResearchLab.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\ERSA_LG_ResearchLab.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="130" />
+        <Component Subtype="Construction" Count="40" />
+        <Component Subtype="Motor" Count="8" />
+        <Component Subtype="Display" Count="4" />
+        <Component Subtype="Computer" Count="80" />
+        <Component Subtype="SteelPlate" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ERSA_LG_ResearchLab_BS1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ERSA_LG_ResearchLab_BS2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ERSA_LG_ResearchLab_BS3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>ERSA_LG_ResearchLab</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>80</BuildTimeSeconds>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <InventoryMaxVolume>1</InventoryMaxVolume>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>0.56</OperationalPowerConsumption>
+      <BlueprintClasses>
+        <Class>ERSA_LG_ResearchLab_BPC</Class>
+      </BlueprintClasses>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <PrimarySound>BlockAssembler</PrimarySound>
+      <ActionSound>BlockAssemblerProcess</ActionSound>
+      <DestroyEffect>Explosion_Missile</DestroyEffect>
+      <DestroySound>WepSmallMissileExpl</DestroySound>
+      <PCU>40</PCU>
+    </Definition>
+    
+  </CubeBlocks>
+</Definitions>

@@ -38,8 +38,8 @@
         <Y>1</Y>
         <Z>1</Z>
       </InventorySize>
-      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-      <OperationalPowerConsumption>0.56</OperationalPowerConsumption>
+      <StandbyPowerConsumption>0.01</StandbyPowerConsumption>
+      <OperationalPowerConsumption>1.00</OperationalPowerConsumption>
       <BlueprintClasses>
         <Class>ERSA_LG_ResearchLab_BPC</Class>
       </BlueprintClasses>
@@ -49,7 +49,7 @@
       <ActionSound>BlockAssemblerProcess</ActionSound>
       <DestroyEffect>Explosion_Missile</DestroyEffect>
       <DestroySound>WepSmallMissileExpl</DestroySound>
-      <PCU>40</PCU>
+      <PCU>60</PCU>
     </Definition>
     
   </CubeBlocks>

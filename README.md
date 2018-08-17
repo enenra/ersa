@@ -1,6 +1,8 @@
 # Extendable Research System Addon
 An addon to Equinox' Extendable Research System: https://github.com/Equinox-/ResearchCore
 
+This mod is available on the Steam Workshop: [COMING SOON]
+
 ## Features
 ### Items
 * Adds a Research Lab block to the game.
@@ -18,4 +20,5 @@ An addon to Equinox' Extendable Research System: https://github.com/Equinox-/Res
 * This mod does not contain a research tree, but allows other modders to create their own research trees using this and Equinox' Extendable Research System's features in a streamlined manner.
 * All the required definitions file entries that are required to create a research tree for this mod can easily be created in the provided comprehensive Google Spreadsheet.
 
-## How It Works
+## More Information
+Visit the wiki: [ERSA Wiki](https://github.com/enenra/ersa/wiki)

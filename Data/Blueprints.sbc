@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!-- Created from enenra's Research Spreadsheet on: 2018-08-17 23:01 -->
+<!-- Created by ERSA Editor version 0.75 on: 2018-08-18 17:31 -->
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Blueprints>
     <Blueprint>
@@ -9,11 +9,27 @@
       </Id>
       <DisplayName>Research Large Grid Wheels</DisplayName>
       <Icon>Textures\GUI\Icons\ERSA_research_default.dds</Icon>
-      <Prerequisites>											</Prerequisites>
+      <Prerequisites>
+      </Prerequisites>
       <Results>
         <Item Amount="1" TypeId="Component" SubtypeId="ERSA_TEST_LOC_1_BP" />
       </Results>
       <BaseProductionTimeInSeconds>300</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_TEST_LOC_2_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Atmospheric Thrusters Blueprint</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_default.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3.000005" TypeId="Component" SubtypeId="ERSA_TEST_LOC_1_BP" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_TEST_LOC_2_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
     </Blueprint>
   </Blueprints>
 </Definitions>

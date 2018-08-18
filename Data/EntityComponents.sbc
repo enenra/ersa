@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+    
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>ERSA_LG_DataStorage</SubtypeId>
+      </Id>
+      <Size x="1.0" y="1.0" z="1.0" />
+      <InputConstraint IsWhitelist="true">
+        <Entry>
+          <TypeId>MyObjectBuilder_Component</TypeId>
+          <SubtypeId>ERSA_TEST_LOC_1_BP</SubtypeId>
+        </Entry>
+      </InputConstraint>
+    </EntityComponent>
+    
+  </EntityComponents>
+</Definitions>

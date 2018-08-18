@@ -14,8 +14,9 @@
       <OutputConstraintIcon>Textures\GUI\Icons\filter_research_blueprint.dds</OutputConstraintIcon>
     </Class>
   </BlueprintClasses>
-  
+
   <BlueprintClassEntries>
     <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_TEST_LOC_1_RBP" />
+    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_TEST_LOC_2_RBP" />
   </BlueprintClassEntries>
 </Definitions>

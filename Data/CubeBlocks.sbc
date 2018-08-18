@@ -45,6 +45,7 @@
       </BlueprintClasses>
       <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
       <PrimarySound>BlockAssembler</PrimarySound>
       <ActionSound>BlockAssemblerProcess</ActionSound>
       <DestroyEffect>Explosion_Missile</DestroyEffect>

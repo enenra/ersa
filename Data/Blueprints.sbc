@@ -14,7 +14,7 @@
       <Results>
         <Item Amount="1" TypeId="Component" SubtypeId="ERSA_TEST_LOC_1_BP" />
       </Results>
-      <BaseProductionTimeInSeconds>300</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>
       <Id>
@@ -24,7 +24,7 @@
       <DisplayName>Research Atmospheric Thrusters Blueprint</DisplayName>
       <Icon>Textures\GUI\Icons\ERSA_research_default.dds</Icon>
       <Prerequisites>
-        <Item Amount="3.000005" TypeId="Component" SubtypeId="ERSA_TEST_LOC_1_BP" />
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_TEST_LOC_1_BP" />
       </Prerequisites>
       <Results>
         <Item Amount="1" TypeId="Component" SubtypeId="ERSA_TEST_LOC_2_BP" />

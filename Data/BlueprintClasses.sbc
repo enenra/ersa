@@ -7,9 +7,9 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>ERSA_LG_ResearchLab_BPC</SubtypeId>
       </Id>
-      <DisplayName>Research Lab Blueprints</DisplayName>
-      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
-      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <DisplayName>Research Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\research_blueprint.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\research_blueprint_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_research_blueprint.dds</InputConstraintIcon>
       <OutputConstraintIcon>Textures\GUI\Icons\filter_research_blueprint.dds</OutputConstraintIcon>
     </Class>

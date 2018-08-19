@@ -46,8 +46,8 @@
       <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
       <EmissiveColorPreset>Default</EmissiveColorPreset>
-      <PrimarySound>BlockAssembler</PrimarySound>
-      <ActionSound>BlockAssemblerProcess</ActionSound>
+      <PrimarySound>BlockResearchLab</PrimarySound>
+      <ActionSound>BlockResearchLabProcess</ActionSound>
       <DestroyEffect>Explosion_Missile</DestroyEffect>
       <DestroySound>WepSmallMissileExpl</DestroySound>
       <PCU>60</PCU>

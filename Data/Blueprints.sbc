@@ -8,7 +8,7 @@
         <SubtypeId>ERSA_TEST_LOC_1_RBP</SubtypeId>
       </Id>
       <DisplayName>Research Large Grid Wheels</DisplayName>
-      <Icon>Textures\GUI\Icons\ERSA_research_default.dds</Icon>
+      <Icon>Textures\GUI\Icons\ERSA_research_locomotion.dds</Icon>
       <Prerequisites>
       </Prerequisites>
       <Results>
@@ -21,8 +21,8 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>ERSA_TEST_LOC_2_RBP</SubtypeId>
       </Id>
-      <DisplayName>Research Atmospheric Thrusters Blueprint</DisplayName>
-      <Icon>Textures\GUI\Icons\ERSA_research_default.dds</Icon>
+      <DisplayName>Research Atmospheric Thrusters</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_locomotion.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Component" SubtypeId="ERSA_TEST_LOC_1_BP" />
       </Prerequisites>

@@ -1,20 +1,23 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0"?>
+<!-- Created by ERSA Editor version 0.75 on: 2018-08-19 13:49 -->
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <EntityComponents>
-    
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
         <SubtypeId>ERSA_LG_DataStorage</SubtypeId>
       </Id>
-      <Size x="1.0" y="1.0" z="1.0" />
+      <Size x="1.0" y="0.2" z="0.1" />
       <InputConstraint IsWhitelist="true">
         <Entry>
           <TypeId>MyObjectBuilder_Component</TypeId>
           <SubtypeId>ERSA_TEST_LOC_1_BP</SubtypeId>
         </Entry>
+        <Entry>
+          <TypeId>MyObjectBuilder_Component</TypeId>
+          <SubtypeId>ERSA_TEST_LOC_2_BP</SubtypeId>
+        </Entry>
       </InputConstraint>
     </EntityComponent>
-    
   </EntityComponents>
 </Definitions>

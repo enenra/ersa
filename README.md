@@ -21,5 +21,7 @@ This mod is available on the Steam Workshop: [COMING SOON]
 * This mod does not contain a research tree, but allows other modders to create their own research trees using this and Equinox' Extendable Research System's features in a streamlined manner.
 * All the required definitions file entries necessary to set up a research tree for this mod can easily be created in the provided comprehensive Google Spreadsheet.
 
+You can find a short demo of the development version [here](https://youtu.be/1aVTD505Qwk).
+
 ## More Information
 Visit the wiki: [ERSA Wiki](https://github.com/enenra/ersa/wiki)

@@ -21,7 +21,6 @@ namespace enenra.EmissiveControl
 		private string EMISSIVE_MATERIAL_NAME = "Emissive";
 		private Color GREEN = new Color(0, 240, 0);
 		private Color RED = new Color(240, 0, 0);
-        MyAPIGateway.Utilities.ShowMessage("enenra","test");
 
 
         bool IsWorking

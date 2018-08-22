@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<!-- Created by ERSA Editor version 0.75 on: 2018-08-18 17:31 -->
+<!-- Created by ERSA Editor version 0.75 on: 2018-08-22 18:49 -->
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Components>
     <Component>
       <Id>
         <TypeId>Component</TypeId>
-        <SubtypeId>ERSA_TEST_LOC_1_BP</SubtypeId>
+        <SubtypeId>ERSA_VAN_LOC_1_BP</SubtypeId>
       </Id>
       <DisplayName>Large Grid Wheels Blueprint</DisplayName>
       <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
@@ -25,9 +25,109 @@
     <Component>
       <Id>
         <TypeId>Component</TypeId>
-        <SubtypeId>ERSA_TEST_LOC_2_BP</SubtypeId>
+        <SubtypeId>ERSA_VAN_LOC_2_BP</SubtypeId>
       </Id>
       <DisplayName>Atmospheric Thrusters Blueprint</DisplayName>
+      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\research_blueprint_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.25</DropProbability>
+      <Health>10</Health>
+    </Component>
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ERSA_VAN_LOC_3_BP</SubtypeId>
+      </Id>
+      <DisplayName>Ion Thrusters Blueprint</DisplayName>
+      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\research_blueprint_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.25</DropProbability>
+      <Health>10</Health>
+    </Component>
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ERSA_VAN_UTIL_1_BP</SubtypeId>
+      </Id>
+      <DisplayName> Blueprint</DisplayName>
+      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\research_blueprint_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.25</DropProbability>
+      <Health>10</Health>
+    </Component>
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ERSA_VAN_UTIL_2_BP</SubtypeId>
+      </Id>
+      <DisplayName>Long-Range Communications Blueprint</DisplayName>
+      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\research_blueprint_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.25</DropProbability>
+      <Health>10</Health>
+    </Component>
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ERSA_VAN_PWR_1_BP</SubtypeId>
+      </Id>
+      <DisplayName>Upscaled Reactors Blueprint</DisplayName>
+      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\research_blueprint_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.25</DropProbability>
+      <Health>10</Health>
+    </Component>
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ERSA_VAN_COM_A1_BP</SubtypeId>
+      </Id>
+      <DisplayName>Advanced Turrets Blueprint</DisplayName>
       <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
       <Size>
         <X>0.1</X>

@@ -11,6 +11,7 @@
       <Name>LargeBlocks</Name>
       <ItemIds>
         <string>Assembler/ERSA_LG_ResearchLab</string>
+        <string>CargoContainer/ERSA_LG_DataStorage</string>
       </ItemIds>
     </Category>
 
@@ -23,6 +24,18 @@
       <Name>Production</Name>
       <ItemIds>
         <string>Assembler/ERSA_LG_ResearchLab</string>
+      </ItemIds>
+    </Category>
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_ConveyorBlocks</DisplayName>
+      <Name>Conveyors</Name>
+      <ItemIds>
+        <string>CargoContainer/ERSA_LG_DataStorage</string>
       </ItemIds>
     </Category>
 

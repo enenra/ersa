@@ -59,12 +59,12 @@
         <SubtypeId>ERSA_LG_DataStorage</SubtypeId>
       </Id>
       <DisplayName>Data Storage</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\ERSA_LG_DataStorage.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\CargoContainerSmall.mwm</Model>
+      <Model>Models\Cubes\Large\ERSA_LG_DataStorage.mwm</Model>
       <Components>
         <Component Subtype="InteriorPlate" Count="30" />
         <Component Subtype="Construction" Count="35" />
@@ -77,9 +77,9 @@
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\CargoContainerSmallConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CargoContainerSmallConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CargoContainerSmallConstruction_3.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ERSA_LG_DataStorage_BS1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ERSA_LG_DataStorage_BS2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ERSA_LG_DataStorage_BS3.mwm" />
       </BuildProgressModels>
       <BlockPairName>ERSA_LG_DataStorage</BlockPairName>
       <MirroringY>Z</MirroringY>
@@ -88,6 +88,7 @@
       <BuildTimeSeconds>20</BuildTimeSeconds>
       <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>10</PCU>

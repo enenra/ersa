@@ -45,7 +45,6 @@
       </BlueprintClasses>
       <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
-      <EmissiveColorPreset>Default</EmissiveColorPreset>
       <PrimarySound>BlockResearchLab</PrimarySound>
       <ActionSound>BlockResearchLabProcess</ActionSound>
       <DestroyEffect>Explosion_Missile</DestroyEffect>
@@ -88,6 +87,7 @@
       <BuildTimeSeconds>20</BuildTimeSeconds>
       <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>10</PCU>

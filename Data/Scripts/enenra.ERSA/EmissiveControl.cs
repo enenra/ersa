@@ -3,11 +3,11 @@ using Sandbox.ModAPI;
 using VRage.ObjectBuilders;
 using VRage.ModAPI;
 using VRageMath;
-using Sandbox.Common.ObjectBuilders.Definitions;
+using Sandbox.Common.ObjectBuilders;
 
 namespace enenra.EmissiveControl
 {
-    [MyEntityComponentDescriptor(typeof(MyObjectBuilder_AssemblerDefinition), false,
+    [MyEntityComponentDescriptor(typeof(MyObjectBuilder_Assembler), false,
         new string[]
         {
             "ERSA_LG_ResearchLab"
@@ -18,9 +18,9 @@ namespace enenra.EmissiveControl
         Sandbox.ModAPI.IMyAssembler m_block;
 
         private string EMISSIVE_MATERIAL_NAME = "Emissive";
-        private Color GREEN = new Color(0, 240, 0);
-        private Color BLUE = new Color(0, 0, 240);
-        private Color RED = new Color(240, 0, 0);
+        private Color GREEN = new Color(0, 255, 0);
+        private Color BLUE = new Color(0, 255, 2255, 255);
+        private Color RED = new Color(255, 0, 0);
 
 
         bool IsWorking
@@ -31,7 +31,7 @@ namespace enenra.EmissiveControl
             }
         }
 
-        bool IsResearching
+        bool IsProducing
         {
             get
             {
@@ -67,24 +67,15 @@ namespace enenra.EmissiveControl
 
             if (IsWorking)
             {
-                if (IsResearching)
-                {
+                if (IsProducing)
                     m_block.SetEmissiveParts(EMISSIVE_MATERIAL_NAME, BLUE, 1f);
-                    MyAPIGateway.Utilities.ShowMessage("enenra", "blue");
-                }
 
                 else
-                {
                     m_block.SetEmissiveParts(EMISSIVE_MATERIAL_NAME, GREEN, 1f);
-                    MyAPIGateway.Utilities.ShowMessage("enenra", "green");
-                }
             }
 
             else
-            {
                 m_block.SetEmissiveParts(EMISSIVE_MATERIAL_NAME, RED, 1f);
-                MyAPIGateway.Utilities.ShowMessage("enenra", "red");
-            }
 
         }
     }

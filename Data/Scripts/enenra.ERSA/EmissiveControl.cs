@@ -19,7 +19,7 @@ namespace enenra.EmissiveControl
 
         private string EMISSIVE_MATERIAL_NAME = "Emissive";
         private Color GREEN = new Color(0, 255, 0);
-        private Color BLUE = new Color(0, 255, 255, 255);
+        private Color LIGHTBLUE = new Color(0, 255, 255, 255);
         private Color RED = new Color(255, 0, 0);
 
 
@@ -68,7 +68,7 @@ namespace enenra.EmissiveControl
             if (IsWorking)
             {
                 if (IsProducing)
-                    m_block.SetEmissiveParts(EMISSIVE_MATERIAL_NAME, BLUE, 1f);
+                    m_block.SetEmissiveParts(EMISSIVE_MATERIAL_NAME, LIGHTBLUE, 1f);
 
                 else
                     m_block.SetEmissiveParts(EMISSIVE_MATERIAL_NAME, GREEN, 1f);

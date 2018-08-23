@@ -19,7 +19,7 @@ namespace enenra.EmissiveControl
 
         private string EMISSIVE_MATERIAL_NAME = "Emissive";
         private Color GREEN = new Color(0, 255, 0);
-        private Color BLUE = new Color(0, 255, 2255, 255);
+        private Color BLUE = new Color(0, 255, 255, 255);
         private Color RED = new Color(255, 0, 0);
 
 

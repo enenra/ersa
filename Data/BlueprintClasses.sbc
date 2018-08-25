@@ -14,14 +14,4 @@
       <OutputConstraintIcon>Textures\GUI\Icons\filter_research_blueprint.dds</OutputConstraintIcon>
     </Class>
   </BlueprintClasses>
-
-  <BlueprintClassEntries>
-    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_LOC_1_RBP" />
-    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_LOC_2_RBP" />
-    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_LOC_3_RBP" />
-    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_UTIL_1_RBP" />
-    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_UTIL_2_RBP" />
-    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_PWR_1_RBP" />
-    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_COM_A1_RBP" />
-  </BlueprintClassEntries>
 </Definitions>

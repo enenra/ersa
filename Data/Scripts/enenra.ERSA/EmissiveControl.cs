@@ -21,6 +21,7 @@ namespace enenra.EmissiveControl
         private Color GREEN = new Color(0, 255, 0);
         private Color LIGHTBLUE = new Color(0, 255, 255, 255);
         private Color RED = new Color(255, 0, 0);
+        private Color lastColor;
 
 
         bool IsWorking
@@ -39,11 +40,6 @@ namespace enenra.EmissiveControl
             }
         }
 
-        public override MyObjectBuilder_EntityBase GetObjectBuilder(bool copy = false)
-        {
-            return Container.Entity.GetObjectBuilder(copy);
-        }
-
         public override void Init(MyObjectBuilder_EntityBase objectBuilder)
         {
             NeedsUpdate |= MyEntityUpdateEnum.EACH_10TH_FRAME;
@@ -53,7 +49,6 @@ namespace enenra.EmissiveControl
 
         public override void Close()
         {
-            NeedsUpdate |= MyEntityUpdateEnum.NONE;
             m_block = null;
         }
 
@@ -68,14 +63,23 @@ namespace enenra.EmissiveControl
             if (IsWorking)
             {
                 if (IsProducing)
+                {
                     m_block.SetEmissiveParts(EMISSIVE_MATERIAL_NAME, LIGHTBLUE, 1f);
+                    lastColor = LIGHTBLUE;
+                }
 
                 else
+                {
                     m_block.SetEmissiveParts(EMISSIVE_MATERIAL_NAME, GREEN, 1f);
+                    lastColor = GREEN;
+                }
             }
 
             else
+            {
                 m_block.SetEmissiveParts(EMISSIVE_MATERIAL_NAME, RED, 1f);
+                lastColor = RED;
+            }
 
         }
     }

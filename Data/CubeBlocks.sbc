@@ -65,18 +65,18 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\ERSA_LG_DataStorage.mwm</Model>
       <Components>
-        <Component Subtype="InteriorPlate" Count="30" />
+        <Component Subtype="InteriorPlate" Count="100" />
         <Component Subtype="Construction" Count="35" />
         <Component Subtype="MetalGrid" Count="6" />
         <Component Subtype="Motor" Count="2" />
         <Component Subtype="Display" Count="12" />
-        <Component Subtype="Computer" Count="24" />
+        <Component Subtype="Computer" Count="48" />
         <Component Subtype="Construction" Count="5" />
-        <Component Subtype="InteriorPlate" Count="20" />
+        <Component Subtype="InteriorPlate" Count="40" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0" EndY="0" Default="true" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
       </MountPoints>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ERSA_LG_DataStorage_BS1.mwm" />

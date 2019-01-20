@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<!-- Created by ERSA Editor version 0.75 on: 2019-01-19 16:46 -->
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_ResearchMaterial_BP</SubtypeId>
+      </Id>
+      <DisplayName>Produce Research Material</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ERSA_ResearchMaterial.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Silicon" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_ResearchMaterial" />
+      </Results>
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_ResearchMaterial2_BP</SubtypeId>
+      </Id>
+      <DisplayName>Produce Enhanced Research Material</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ERSA_EnhancedResearchMaterial.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Magnesium" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_EnhancedResearchMaterial" />
+      </Results>
+      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_ResearchMaterial3_BP</SubtypeId>
+      </Id>
+      <DisplayName>Produce Advanced Research Material</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ERSA_AdvancedResearchMaterial.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Magnesium" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Silver" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Gold" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_AdvancedResearchMaterial" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_ResearchMaterial4_BP</SubtypeId>
+      </Id>
+      <DisplayName>Produce Elite Research Material</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ERSA_EliteResearchMaterial.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Silver" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Gold" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Platinum" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_EliteResearchMaterial" />
+      </Results>
+      <BaseProductionTimeInSeconds>40</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+  </Blueprints>
+</Definitions>

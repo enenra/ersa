@@ -14,4 +14,11 @@
       <OutputConstraintIcon>Textures\GUI\Icons\filter_research_blueprint.dds</OutputConstraintIcon>
     </Class>
   </BlueprintClasses>
+
+  <BlueprintClassEntries>
+    <Entry Class="Components" BlueprintSubtypeId="ERSA_ResearchMaterial_BP" />
+    <Entry Class="Components" BlueprintSubtypeId="ERSA_ResearchMaterial2_BP" />
+    <Entry Class="Components" BlueprintSubtypeId="ERSA_ResearchMaterial3_BP" />
+    <Entry Class="Components" BlueprintSubtypeId="ERSA_ResearchMaterial4_BP" />
+  </BlueprintClassEntries>
 </Definitions>

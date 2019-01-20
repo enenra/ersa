@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<!-- Created by ERSA Editor version 0.75 on: 2019-01-19 16:41 -->
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Components>
+
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ERSA_ResearchMaterial</SubtypeId>
+      </Id>
+      <DisplayName>Research Material</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ERSA_ResearchMaterial.dds</Icon>
+      <Size>
+        <X>0.2</X>
+        <Y>0.2</Y>
+        <Z>0.6</Z>
+      </Size>
+      <Mass>12</Mass>
+      <Volume>24</Volume>
+      <Model>Models\Components\ERSA_ResearchMaterial.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.25</DropProbability>
+      <Health>12</Health>
+    </Component>
+
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ERSA_EnhancedResearchMaterial</SubtypeId>
+      </Id>
+      <DisplayName>Enhanced Research Material</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ERSA_EnhancedResearchMaterial.dds</Icon>
+      <Size>
+        <X>0.2</X>
+        <Y>0.2</Y>
+        <Z>0.6</Z>
+      </Size>
+      <Mass>12</Mass>
+      <Volume>24</Volume>
+      <Model>Models\Components\ERSA_EnhancedResearchMaterial.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.25</DropProbability>
+      <Health>12</Health>
+    </Component>
+
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ERSA_AdvancedResearchMaterial</SubtypeId>
+      </Id>
+      <DisplayName>Advanced Research Material</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ERSA_AdvancedResearchMaterial.dds</Icon>
+      <Size>
+        <X>0.2</X>
+        <Y>0.2</Y>
+        <Z>0.6</Z>
+      </Size>
+      <Mass>12</Mass>
+      <Volume>24</Volume>
+      <Model>Models\Components\ERSA_AdvancedResearchMaterial.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.25</DropProbability>
+      <Health>12</Health>
+    </Component>
+
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ERSA_EliteResearchMaterial</SubtypeId>
+      </Id>
+      <DisplayName>Elite Research Material</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ERSA_EliteResearchMaterial.dds</Icon>
+      <Size>
+        <X>0.2</X>
+        <Y>0.2</Y>
+        <Z>0.6</Z>
+      </Size>
+      <Mass>12</Mass>
+      <Volume>24</Volume>
+      <Model>Models\Components\ERSA_EliteResearchMaterial.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.25</DropProbability>
+      <Health>12</Health>
+    </Component>
+
+  </Components>
+</Definitions>

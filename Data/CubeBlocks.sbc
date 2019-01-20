@@ -32,7 +32,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>80</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
-      <InventoryMaxVolume>0.004</InventoryMaxVolume>
+      <InventoryMaxVolume>1</InventoryMaxVolume>
       <InventorySize>
         <X>1</X>
         <Y>1</Y>

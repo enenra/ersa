@@ -29,7 +29,7 @@
         <TypeId>Component</TypeId>
         <SubtypeId>ERSA_EnhancedResearchMaterial</SubtypeId>
       </Id>
-      <DisplayName>Enhanced Research Material</DisplayName>
+      <DisplayName>Enh. Research Material</DisplayName>
       <Icon>Textures\GUI\Icons\component\ERSA_EnhancedResearchMaterial.dds</Icon>
       <Size>
         <X>0.2</X>
@@ -50,7 +50,7 @@
         <TypeId>Component</TypeId>
         <SubtypeId>ERSA_AdvancedResearchMaterial</SubtypeId>
       </Id>
-      <DisplayName>Advanced Research Material</DisplayName>
+      <DisplayName>Adv. Research Material</DisplayName>
       <Icon>Textures\GUI\Icons\component\ERSA_AdvancedResearchMaterial.dds</Icon>
       <Size>
         <X>0.2</X>

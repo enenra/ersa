@@ -26,7 +26,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>ERSA_ResearchMaterial2_BP</SubtypeId>
       </Id>
-      <DisplayName>Produce Enhanced Research Material</DisplayName>
+      <DisplayName>Produce Enh. Research Material</DisplayName>
       <Icon>Textures\GUI\Icons\component\ERSA_EnhancedResearchMaterial.dds</Icon>
       <Prerequisites>
         <Item Amount="10" TypeId="Ingot" SubtypeId="Nickel" />
@@ -44,7 +44,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>ERSA_ResearchMaterial3_BP</SubtypeId>
       </Id>
-      <DisplayName>Produce Advanced Research Material</DisplayName>
+      <DisplayName>Produce Adv. Research Material</DisplayName>
       <Icon>Textures\GUI\Icons\component\ERSA_AdvancedResearchMaterial.dds</Icon>
       <Prerequisites>
         <Item Amount="10" TypeId="Ingot" SubtypeId="Magnesium" />

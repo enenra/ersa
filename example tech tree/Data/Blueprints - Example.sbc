@@ -1,0 +1,842 @@
+<?xml version="1.0"?>
+<!-- Created by ERSA Editor version 0.75 on: 2019-01-21 22:52 -->
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_VAN_LOC_A1_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Large Grid Wheels</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_locomotion.dds</Icon>
+      <Prerequisites>
+        <Item Amount="40" TypeId="Component" SubtypeId="ERSA_ResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_LOC_A1_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>300</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_VAN_LOC_B3_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Atmospheric Thrusters</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_locomotion.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_LOC_B2_BP" />
+        <Item Amount="30" TypeId="Component" SubtypeId="ERSA_AdvancedResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_LOC_B3_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>600</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_VAN_LOC_B4_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Ion Thrusters</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_locomotion.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_LOC_B3_BP" />
+        <Item Amount="30" TypeId="Component" SubtypeId="ERSA_EliteResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_LOC_B4_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>1800</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_VAN_UTIL_A2_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Short-Range Communications</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_utility.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_UTIL_A1_BP" />
+        <Item Amount="20" TypeId="Component" SubtypeId="ERSA_EnhancedResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_UTIL_A2_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>300</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_VAN_UTIL_A3_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Long-Range Communications</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_utility.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_UTIL_A2_BP" />
+        <Item Amount="40" TypeId="Component" SubtypeId="ERSA_AdvancedResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_UTIL_A3_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>600</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_VAN_PWR_A1_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Upscaled Reactors</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_power.dds</Icon>
+      <Prerequisites>
+        <Item Amount="40" TypeId="Component" SubtypeId="ERSA_EnhancedResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_PWR_A1_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>600</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_VAN_COM_A1_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Advanced Turrets</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_combat.dds</Icon>
+      <Prerequisites>
+        <Item Amount="20" TypeId="Component" SubtypeId="ERSA_EnhancedResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_COM_A1_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>600</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_VAN_COM_B2_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Automatic Reload Systems</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_combat.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_COM_B1_BP" />
+        <Item Amount="40" TypeId="Component" SubtypeId="ERSA_AdvancedResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_COM_B2_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>1200</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_VAN_COM_C1_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Targeting Disruption</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_combat.dds</Icon>
+      <Prerequisites>
+        <Item Amount="40" TypeId="Component" SubtypeId="ERSA_ResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_COM_C1_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>300</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_VAN_IND_A1_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Automatic Grinders</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_industry.dds</Icon>
+      <Prerequisites>
+        <Item Amount="20" TypeId="Component" SubtypeId="ERSA_ResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_IND_A1_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>300</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_VAN_IND_A2_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Upscaled Grinders</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_industry.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_IND_A1_BP" />
+        <Item Amount="10" TypeId="Component" SubtypeId="ERSA_EnhancedResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_IND_A2_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>600</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_VAN_IND_B1_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Automatic Welders</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_industry.dds</Icon>
+      <Prerequisites>
+        <Item Amount="20" TypeId="Component" SubtypeId="ERSA_ResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_IND_B1_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>300</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_VAN_IND_B2_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Upscaled Welders</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_industry.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_IND_B1_BP" />
+        <Item Amount="10" TypeId="Component" SubtypeId="ERSA_EnhancedResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_IND_B2_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>600</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_VAN_IND_C1_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Automatic Drills</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_industry.dds</Icon>
+      <Prerequisites>
+        <Item Amount="20" TypeId="Component" SubtypeId="ERSA_ResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_IND_C1_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>300</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_VAN_IND_C2_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Upscaled Drills</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_industry.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_IND_C1_BP" />
+        <Item Amount="10" TypeId="Component" SubtypeId="ERSA_EnhancedResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_IND_C2_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>600</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_VAN_UTIL_A1_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Positional Markers</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_utility.dds</Icon>
+      <Prerequisites>
+        <Item Amount="20" TypeId="Component" SubtypeId="ERSA_ResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_UTIL_A1_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>300</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_VAN_PWR_A2_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Advanced Reactors</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_power.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_PWR_A1_BP" />
+        <Item Amount="40" TypeId="Component" SubtypeId="ERSA_AdvancedResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_PWR_A2_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>1200</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_VAN_LOC_B1_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Hydrogen Thrusters</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_locomotion.dds</Icon>
+      <Prerequisites>
+        <Item Amount="20" TypeId="Component" SubtypeId="ERSA_ResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_LOC_B1_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>300</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_VAN_LOC_B2_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Upscaled Hydrogen Thrusters</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_locomotion.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_LOC_B1_BP" />
+        <Item Amount="30" TypeId="Component" SubtypeId="ERSA_EnhancedResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_LOC_B2_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>600</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_VAN_COM_B1_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Rocket Launcher</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_combat.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Component" SubtypeId="ERSA_EnhancedResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_COM_B1_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>600</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_VAN_IND_E1_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Advanced Refining</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_industry.dds</Icon>
+      <Prerequisites>
+        <Item Amount="40" TypeId="Component" SubtypeId="ERSA_ResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_IND_E1_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>300</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_VAN_IND_E2_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Energy Saving</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_industry.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_IND_E1_BP" />
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_IND_E2_BP" />
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_IND_E3_BP" />
+        <Item Amount="20" TypeId="Component" SubtypeId="ERSA_EnhancedResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_IND_E2_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>600</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_VAN_IND_E3_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Effectivity Improvements</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_industry.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_IND_E2_BP" />
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_IND_E3_BP" />
+        <Item Amount="20" TypeId="Component" SubtypeId="ERSA_AdvancedResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_IND_E3_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>1200</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_VAN_IND_E4_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Productivity Improvements</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_industry.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_IND_E3_BP" />
+        <Item Amount="20" TypeId="Component" SubtypeId="ERSA_EliteResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_IND_E4_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>1800</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_VAN_UTIL_B1_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Upscaled Detectors</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_utility.dds</Icon>
+      <Prerequisites>
+        <Item Amount="30" TypeId="Component" SubtypeId="ERSA_ResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_UTIL_B1_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>300</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_VAN_UTIL_C1_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Holographic Projectors</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_utility.dds</Icon>
+      <Prerequisites>
+        <Item Amount="40" TypeId="Component" SubtypeId="ERSA_ResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_UTIL_C1_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>300</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_VAN_UTIL_D1_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Reinforced Doors</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_utility.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Component" SubtypeId="ERSA_ResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_UTIL_D1_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>300</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_VAN_UTIL_E1_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Upscaled Displays</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_utility.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Component" SubtypeId="ERSA_ResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_UTIL_E1_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>300</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_VAN_UTIL_E2_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Widescreen Displays</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_utility.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_UTIL_E1_BP" />
+        <Item Amount="10" TypeId="Component" SubtypeId="ERSA_EnhancedResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_UTIL_E2_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>1200</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_VAN_UTIL_F1_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Miniaturized Displays</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_utility.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Component" SubtypeId="ERSA_ResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_UTIL_F1_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>300</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_VAN_UTIL_G1_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Upscaled Cockpits</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_utility.dds</Icon>
+      <Prerequisites>
+        <Item Amount="30" TypeId="Component" SubtypeId="ERSA_ResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_UTIL_G1_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>300</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_VAN_UTIL_G2_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Control Consoles</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_utility.dds</Icon>
+      <Prerequisites>
+        <Item Amount="40" TypeId="Component" SubtypeId="ERSA_EnhancedResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_UTIL_G2_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>600</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_VAN_UTIL_H1_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Advanced Cockpits</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_utility.dds</Icon>
+      <Prerequisites>
+        <Item Amount="40" TypeId="Component" SubtypeId="ERSA_ResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_UTIL_H1_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>300</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_VAN_UTIL_I1_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Upscaled Gyroscopes</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_utility.dds</Icon>
+      <Prerequisites>
+        <Item Amount="20" TypeId="Component" SubtypeId="ERSA_ResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_UTIL_I1_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>300</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_VAN_UTIL_J1_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Upscaled Landing Gears</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_utility.dds</Icon>
+      <Prerequisites>
+        <Item Amount="30" TypeId="Component" SubtypeId="ERSA_ResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_UTIL_J1_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>300</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_VAN_DEF_A1_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Mass Generation</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_default.dds</Icon>
+      <Prerequisites>
+        <Item Amount="40" TypeId="Component" SubtypeId="ERSA_AdvancedResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_DEF_A1_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>1200</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_VAN_DEF_A2_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Gravity Generation</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_default.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_DEF_A1_BP" />
+        <Item Amount="40" TypeId="Component" SubtypeId="ERSA_AdvancedResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_DEF_A2_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>1200</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_VAN_DEF_A3_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research FTL Travel</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_default.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_DEF_A2_BP" />
+        <Item Amount="40" TypeId="Component" SubtypeId="ERSA_EliteResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_DEF_A3_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>1800</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_VAN_STOR_A1_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Upscaled Cargo Containers</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_storage.dds</Icon>
+      <Prerequisites>
+        <Item Amount="30" TypeId="Component" SubtypeId="ERSA_ResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_STOR_A1_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>300</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_VAN_STOR_A2_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Advanced Cargo Containers</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_storage.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_STOR_A1_BP" />
+        <Item Amount="40" TypeId="Component" SubtypeId="ERSA_EnhancedResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_STOR_A2_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>600</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_VAN_UTIL_K1_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Miniaturized O2/H2 Generators</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_utility.dds</Icon>
+      <Prerequisites>
+        <Item Amount="20" TypeId="Component" SubtypeId="ERSA_ResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_UTIL_K1_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>300</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_VAN_STOR_B1_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Upscaled Tanks</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_storage.dds</Icon>
+      <Prerequisites>
+        <Item Amount="40" TypeId="Component" SubtypeId="ERSA_ResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_STOR_B1_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>300</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_VAN_UTIL_K2_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Oxygen Collection</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_utility.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_UTIL_K1_BP" />
+        <Item Amount="40" TypeId="Component" SubtypeId="ERSA_AdvancedResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_UTIL_K2_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>1200</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_VAN_UTIL_L1_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Upscaled Vents</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_utility.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Component" SubtypeId="ERSA_ResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_UTIL_L1_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>300</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_VAN_AUT_A1_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Sensor Equipment</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_automation.dds</Icon>
+      <Prerequisites>
+        <Item Amount="20" TypeId="Component" SubtypeId="ERSA_ResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_AUT_A1_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>300</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_VAN_AUT_A2_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Camera Equipment</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_automation.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_AUT_A1_BP" />
+        <Item Amount="40" TypeId="Component" SubtypeId="ERSA_EnhancedResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_AUT_A2_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>600</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_VAN_AUT_B1_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Basic Automation</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_automation.dds</Icon>
+      <Prerequisites>
+        <Item Amount="30" TypeId="Component" SubtypeId="ERSA_ResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_AUT_B1_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>300</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_VAN_AUT_B2_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Logic Processors</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_automation.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_AUT_B1_BP" />
+        <Item Amount="40" TypeId="Component" SubtypeId="ERSA_EnhancedResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_AUT_B2_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>600</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_VAN_STOR_C1_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Transfer Automation</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_storage.dds</Icon>
+      <Prerequisites>
+        <Item Amount="40" TypeId="Component" SubtypeId="ERSA_ResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_STOR_C1_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>300</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_VAN_UTIL_M1_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Upscaled Doors</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_utility.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_UTIL_D1_BP" />
+        <Item Amount="20" TypeId="Component" SubtypeId="ERSA_EnhancedResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_UTIL_M1_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>600</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_VAN_DEF_B1_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Cryo Sleep</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_default.dds</Icon>
+      <Prerequisites>
+        <Item Amount="40" TypeId="Component" SubtypeId="ERSA_ResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_DEF_B1_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>300</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_VAN_ARM_A1_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Reinforced Armor</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_armor.dds</Icon>
+      <Prerequisites>
+        <Item Amount="40" TypeId="Component" SubtypeId="ERSA_ResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_ARM_A1_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>300</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_VAN_ARM_A2_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Upscaled Reinforced Armor</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_armor.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_ARM_A1_BP" />
+        <Item Amount="40" TypeId="Component" SubtypeId="ERSA_EnhancedResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_ARM_A2_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>600</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ERSA_VAN_ARM_A3_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Blast Protection</DisplayName>
+      <Icon>Textures\GUI\Icons\ERSA_research_armor.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_ARM_A2_BP" />
+        <Item Amount="20" TypeId="Component" SubtypeId="ERSA_AdvancedResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_ARM_A3_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>1800</BaseProductionTimeInSeconds>
+    </Blueprint>
+  </Blueprints>
+</Definitions>

@@ -29,9 +29,9 @@
       <DisplayName>Produce Enh. Research Material</DisplayName>
       <Icon>Textures\GUI\Icons\component\ERSA_EnhancedResearchMaterial.dds</Icon>
       <Prerequisites>
-        <Item Amount="50" TypeId="Ingot" SubtypeId="Silicon" />
-        <Item Amount="30" TypeId="Ingot" SubtypeId="Cobalt" />
-        <Item Amount="20" TypeId="Ingot" SubtypeId="Magnesium" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Magnesium" />
       </Prerequisites>
       <Results>
         <Item Amount="1" TypeId="Component" SubtypeId="ERSA_EnhancedResearchMaterial" />
@@ -47,9 +47,9 @@
       <DisplayName>Produce Adv. Research Material</DisplayName>
       <Icon>Textures\GUI\Icons\component\ERSA_AdvancedResearchMaterial.dds</Icon>
       <Prerequisites>
-        <Item Amount="30" TypeId="Ingot" SubtypeId="Magnesium" />
-        <Item Amount="20" TypeId="Ingot" SubtypeId="Uranium" />
-        <Item Amount="60" TypeId="Ingot" SubtypeId="Silver" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Magnesium" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Silver" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Gold" />
       </Prerequisites>
       <Results>
         <Item Amount="1" TypeId="Component" SubtypeId="ERSA_AdvancedResearchMaterial" />
@@ -65,9 +65,9 @@
       <DisplayName>Produce Elite Research Material</DisplayName>
       <Icon>Textures\GUI\Icons\component\ERSA_EliteResearchMaterial.dds</Icon>
       <Prerequisites>
-        <Item Amount="100" TypeId="Ingot" SubtypeId="Silver" />
-        <Item Amount="100" TypeId="Ingot" SubtypeId="Gold" />
-        <Item Amount="50" TypeId="Ingot" SubtypeId="Platinum" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Silver" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Gold" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Platinum" />
       </Prerequisites>
       <Results>
         <Item Amount="1" TypeId="Component" SubtypeId="ERSA_EliteResearchMaterial" />

@@ -1,9 +1,9 @@
 # Extendable Research System Addon
 An addon to Equinox' Extendable Research System: https://github.com/Equinox-/ResearchCore
 
-This mod is available on the Steam Workshop: [COMING SOON]
+This mod is available on the Steam Workshop: [ERSA - Extendable Research System Addon](https://steamcommunity.com/sharedfiles/filedetails/?id=1632059698)
 
-An example research tree of all vanilla items is available on the Steam Workshop: [COMING SOON]
+An example research tree of all vanilla items is available on the Steam Workshop: [ERSA Vanilla](https://steamcommunity.com/sharedfiles/filedetails/?id=1632059698)
 
 ## Features
 ### Items

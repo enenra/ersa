@@ -1,60 +1,53 @@
 <?xml version="1.0"?>
-<!-- Created by ERSA Editor version 0.75 on: 2019-01-21 22:24 -->
+<!-- Created by ERSA Editor version 0.75 on: 2019-01-22 20:53 -->
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <BlueprintClassEntries>
     <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_LOC_A1_RBP" />
-    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_LOC_B3_RBP" />
-    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_LOC_B4_RBP" />
-    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_UTIL_A2_RBP" />
-    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_UTIL_A3_RBP" />
-    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_PWR_A1_RBP" />
-    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_COM_A1_RBP" />
-    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_COM_B2_RBP" />
-    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_COM_C1_RBP" />
-    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_IND_A1_RBP" />
-    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_IND_A2_RBP" />
-    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_IND_B1_RBP" />
-    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_IND_B2_RBP" />
-    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_IND_C1_RBP" />
-    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_IND_C2_RBP" />
-    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_UTIL_A1_RBP" />
-    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_PWR_A2_RBP" />
+    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_LOC_A2_RBP" />
+    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_LOC_A3_RBP" />
     <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_LOC_B1_RBP" />
     <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_LOC_B2_RBP" />
-    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_COM_B1_RBP" />
-    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_IND_E1_RBP" />
-    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_IND_E2_RBP" />
-    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_IND_E3_RBP" />
-    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_IND_E4_RBP" />
-    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_UTIL_B1_RBP" />
-    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_UTIL_C1_RBP" />
-    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_UTIL_D1_RBP" />
-    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_UTIL_E1_RBP" />
-    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_UTIL_E2_RBP" />
-    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_UTIL_F1_RBP" />
-    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_UTIL_G1_RBP" />
-    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_UTIL_G2_RBP" />
-    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_UTIL_H1_RBP" />
-    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_UTIL_I1_RBP" />
-    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_UTIL_J1_RBP" />
-    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_DEF_A1_RBP" />
-    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_DEF_A2_RBP" />
-    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_DEF_A3_RBP" />
+    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_LOC_B3_RBP" />
+    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_PWR_A1_RBP" />
+    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_PWR_A2_RBP" />
     <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_STOR_A1_RBP" />
     <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_STOR_A2_RBP" />
-    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_UTIL_K1_RBP" />
     <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_STOR_B1_RBP" />
-    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_UTIL_K2_RBP" />
-    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_UTIL_L1_RBP" />
+    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_STOR_B2_RBP" />
+    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_STOR_C1_RBP" />
+    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_STOR_C2_RBP" />
+    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_STOR_C3_RBP" />
+    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_IND_A1_RBP" />
+    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_IND_A2_RBP" />
+    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_IND_A3_RBP" />
+    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_IND_B1_RBP" />
+    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_IND_B2_RBP" />
+    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_IND_B3_RBP" />
+    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_IND_B4_RBP" />
     <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_AUT_A1_RBP" />
     <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_AUT_A2_RBP" />
     <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_AUT_B1_RBP" />
     <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_AUT_B2_RBP" />
-    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_STOR_C1_RBP" />
-    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_UTIL_M1_RBP" />
+    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_AUT_B3_RBP" />
+    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_DEF_A1_RBP" />
+    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_DEF_A2_RBP" />
+    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_DEF_A3_RBP" />
     <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_DEF_B1_RBP" />
+    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_UTIL_A1_RBP" />
+    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_UTIL_A2_RBP" />
+    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_UTIL_A3_RBP" />
+    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_UTIL_B1_RBP" />
+    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_UTIL_C1_RBP" />
+    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_UTIL_D1_RBP" />
+    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_UTIL_D2_RBP" />
+    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_UTIL_E1_RBP" />
+    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_UTIL_E2_RBP" />
+    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_UTIL_F1_RBP" />
+    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_UTIL_F2_RBP" />
+    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_COM_A1_RBP" />
+    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_COM_A2_RBP" />
+    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_COM_A3_RBP" />
+    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_COM_B1_RBP" />
     <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_ARM_A1_RBP" />
-    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_ARM_A2_RBP" />
-    <Entry Class="ERSA_LG_ResearchLab_BPC" BlueprintSubtypeId="ERSA_VAN_ARM_A3_RBP" />
   </BlueprintClassEntries>
 </Definitions>

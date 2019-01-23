@@ -9,6 +9,7 @@
       </Id>
       <DisplayName>Research Lab</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\ERSA_LG_ResearchLab.dds</Icon>
+      <Description>The Research Lab enables the research of new technologies, unlocking blocks, recipes for Assemblers and Refineries as well as access to other technologies. Technologies are researched by inserting the required tier of Research Material and are output as Research Blueprints, which store the technology's information.</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -59,6 +60,7 @@
       </Id>
       <DisplayName>Data Storage</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\ERSA_LG_DataStorage.dds</Icon>
+      <Description>The Data Storage is able to securely store Research Blueprints.</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />

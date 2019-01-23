@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!-- Created by ERSA Editor version 0.75 on: 2019-01-21 22:24 -->
+<!-- Created by ERSA Editor version 0.75 on: 2019-01-22 20:53 -->
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Components>
     <Component>
@@ -7,7 +7,7 @@
         <TypeId>Component</TypeId>
         <SubtypeId>ERSA_VAN_LOC_A1_BP</SubtypeId>
       </Id>
-      <DisplayName>Large Grid Wheels Blueprint</DisplayName>
+      <DisplayName>Small Wheels Blueprint</DisplayName>
       <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
       <Size>
         <X>0.1</X>
@@ -25,9 +25,9 @@
     <Component>
       <Id>
         <TypeId>Component</TypeId>
-        <SubtypeId>ERSA_VAN_LOC_B3_BP</SubtypeId>
+        <SubtypeId>ERSA_VAN_LOC_A2_BP</SubtypeId>
       </Id>
-      <DisplayName>Atmospheric Thrusters Blueprint</DisplayName>
+      <DisplayName>Upscaled Wheels Blueprint</DisplayName>
       <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
       <Size>
         <X>0.1</X>
@@ -45,289 +45,9 @@
     <Component>
       <Id>
         <TypeId>Component</TypeId>
-        <SubtypeId>ERSA_VAN_LOC_B4_BP</SubtypeId>
+        <SubtypeId>ERSA_VAN_LOC_A3_BP</SubtypeId>
       </Id>
-      <DisplayName>Ion Thrusters Blueprint</DisplayName>
-      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
-      <Size>
-        <X>0.1</X>
-        <Y>0.1</Y>
-        <Z>0.1</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>1</Volume>
-      <Model>Models\Components\research_blueprint_component.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>10</MaxIntegrity>
-      <DropProbability>0.25</DropProbability>
-      <Health>10</Health>
-    </Component>
-    <Component>
-      <Id>
-        <TypeId>Component</TypeId>
-        <SubtypeId>ERSA_VAN_UTIL_A2_BP</SubtypeId>
-      </Id>
-      <DisplayName>Short-Range Communications Blueprint</DisplayName>
-      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
-      <Size>
-        <X>0.1</X>
-        <Y>0.1</Y>
-        <Z>0.1</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>1</Volume>
-      <Model>Models\Components\research_blueprint_component.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>10</MaxIntegrity>
-      <DropProbability>0.25</DropProbability>
-      <Health>10</Health>
-    </Component>
-    <Component>
-      <Id>
-        <TypeId>Component</TypeId>
-        <SubtypeId>ERSA_VAN_UTIL_A3_BP</SubtypeId>
-      </Id>
-      <DisplayName>Long-Range Communications Blueprint</DisplayName>
-      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
-      <Size>
-        <X>0.1</X>
-        <Y>0.1</Y>
-        <Z>0.1</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>1</Volume>
-      <Model>Models\Components\research_blueprint_component.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>10</MaxIntegrity>
-      <DropProbability>0.25</DropProbability>
-      <Health>10</Health>
-    </Component>
-    <Component>
-      <Id>
-        <TypeId>Component</TypeId>
-        <SubtypeId>ERSA_VAN_PWR_A1_BP</SubtypeId>
-      </Id>
-      <DisplayName>Upscaled Reactors Blueprint</DisplayName>
-      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
-      <Size>
-        <X>0.1</X>
-        <Y>0.1</Y>
-        <Z>0.1</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>1</Volume>
-      <Model>Models\Components\research_blueprint_component.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>10</MaxIntegrity>
-      <DropProbability>0.25</DropProbability>
-      <Health>10</Health>
-    </Component>
-    <Component>
-      <Id>
-        <TypeId>Component</TypeId>
-        <SubtypeId>ERSA_VAN_COM_A1_BP</SubtypeId>
-      </Id>
-      <DisplayName>Advanced Turrets Blueprint</DisplayName>
-      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
-      <Size>
-        <X>0.1</X>
-        <Y>0.1</Y>
-        <Z>0.1</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>1</Volume>
-      <Model>Models\Components\research_blueprint_component.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>10</MaxIntegrity>
-      <DropProbability>0.25</DropProbability>
-      <Health>10</Health>
-    </Component>
-    <Component>
-      <Id>
-        <TypeId>Component</TypeId>
-        <SubtypeId>ERSA_VAN_COM_B2_BP</SubtypeId>
-      </Id>
-      <DisplayName>Automatic Reload Systems Blueprint</DisplayName>
-      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
-      <Size>
-        <X>0.1</X>
-        <Y>0.1</Y>
-        <Z>0.1</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>1</Volume>
-      <Model>Models\Components\research_blueprint_component.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>10</MaxIntegrity>
-      <DropProbability>0.25</DropProbability>
-      <Health>10</Health>
-    </Component>
-    <Component>
-      <Id>
-        <TypeId>Component</TypeId>
-        <SubtypeId>ERSA_VAN_COM_C1_BP</SubtypeId>
-      </Id>
-      <DisplayName>Targeting Disruption Blueprint</DisplayName>
-      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
-      <Size>
-        <X>0.1</X>
-        <Y>0.1</Y>
-        <Z>0.1</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>1</Volume>
-      <Model>Models\Components\research_blueprint_component.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>10</MaxIntegrity>
-      <DropProbability>0.25</DropProbability>
-      <Health>10</Health>
-    </Component>
-    <Component>
-      <Id>
-        <TypeId>Component</TypeId>
-        <SubtypeId>ERSA_VAN_IND_A1_BP</SubtypeId>
-      </Id>
-      <DisplayName>Automatic Grinders Blueprint</DisplayName>
-      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
-      <Size>
-        <X>0.1</X>
-        <Y>0.1</Y>
-        <Z>0.1</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>1</Volume>
-      <Model>Models\Components\research_blueprint_component.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>10</MaxIntegrity>
-      <DropProbability>0.25</DropProbability>
-      <Health>10</Health>
-    </Component>
-    <Component>
-      <Id>
-        <TypeId>Component</TypeId>
-        <SubtypeId>ERSA_VAN_IND_A2_BP</SubtypeId>
-      </Id>
-      <DisplayName>Upscaled Grinders Blueprint</DisplayName>
-      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
-      <Size>
-        <X>0.1</X>
-        <Y>0.1</Y>
-        <Z>0.1</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>1</Volume>
-      <Model>Models\Components\research_blueprint_component.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>10</MaxIntegrity>
-      <DropProbability>0.25</DropProbability>
-      <Health>10</Health>
-    </Component>
-    <Component>
-      <Id>
-        <TypeId>Component</TypeId>
-        <SubtypeId>ERSA_VAN_IND_B1_BP</SubtypeId>
-      </Id>
-      <DisplayName>Automatic Welders Blueprint</DisplayName>
-      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
-      <Size>
-        <X>0.1</X>
-        <Y>0.1</Y>
-        <Z>0.1</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>1</Volume>
-      <Model>Models\Components\research_blueprint_component.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>10</MaxIntegrity>
-      <DropProbability>0.25</DropProbability>
-      <Health>10</Health>
-    </Component>
-    <Component>
-      <Id>
-        <TypeId>Component</TypeId>
-        <SubtypeId>ERSA_VAN_IND_B2_BP</SubtypeId>
-      </Id>
-      <DisplayName>Upscaled Welders Blueprint</DisplayName>
-      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
-      <Size>
-        <X>0.1</X>
-        <Y>0.1</Y>
-        <Z>0.1</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>1</Volume>
-      <Model>Models\Components\research_blueprint_component.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>10</MaxIntegrity>
-      <DropProbability>0.25</DropProbability>
-      <Health>10</Health>
-    </Component>
-    <Component>
-      <Id>
-        <TypeId>Component</TypeId>
-        <SubtypeId>ERSA_VAN_IND_C1_BP</SubtypeId>
-      </Id>
-      <DisplayName>Automatic Drills Blueprint</DisplayName>
-      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
-      <Size>
-        <X>0.1</X>
-        <Y>0.1</Y>
-        <Z>0.1</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>1</Volume>
-      <Model>Models\Components\research_blueprint_component.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>10</MaxIntegrity>
-      <DropProbability>0.25</DropProbability>
-      <Health>10</Health>
-    </Component>
-    <Component>
-      <Id>
-        <TypeId>Component</TypeId>
-        <SubtypeId>ERSA_VAN_IND_C2_BP</SubtypeId>
-      </Id>
-      <DisplayName>Upscaled Drills Blueprint</DisplayName>
-      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
-      <Size>
-        <X>0.1</X>
-        <Y>0.1</Y>
-        <Z>0.1</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>1</Volume>
-      <Model>Models\Components\research_blueprint_component.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>10</MaxIntegrity>
-      <DropProbability>0.25</DropProbability>
-      <Health>10</Health>
-    </Component>
-    <Component>
-      <Id>
-        <TypeId>Component</TypeId>
-        <SubtypeId>ERSA_VAN_UTIL_A1_BP</SubtypeId>
-      </Id>
-      <DisplayName>Positional Markers Blueprint</DisplayName>
-      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
-      <Size>
-        <X>0.1</X>
-        <Y>0.1</Y>
-        <Z>0.1</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>1</Volume>
-      <Model>Models\Components\research_blueprint_component.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>10</MaxIntegrity>
-      <DropProbability>0.25</DropProbability>
-      <Health>10</Health>
-    </Component>
-    <Component>
-      <Id>
-        <TypeId>Component</TypeId>
-        <SubtypeId>ERSA_VAN_PWR_A2_BP</SubtypeId>
-      </Id>
-      <DisplayName>Advanced Reactors Blueprint</DisplayName>
+      <DisplayName>Heavy-Duty Wheels Blueprint</DisplayName>
       <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
       <Size>
         <X>0.1</X>
@@ -367,7 +87,7 @@
         <TypeId>Component</TypeId>
         <SubtypeId>ERSA_VAN_LOC_B2_BP</SubtypeId>
       </Id>
-      <DisplayName>Upscaled Hydrogen Thrusters Blueprint</DisplayName>
+      <DisplayName>Atmospheric Thrusters Blueprint</DisplayName>
       <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
       <Size>
         <X>0.1</X>
@@ -385,9 +105,9 @@
     <Component>
       <Id>
         <TypeId>Component</TypeId>
-        <SubtypeId>ERSA_VAN_COM_B1_BP</SubtypeId>
+        <SubtypeId>ERSA_VAN_LOC_B3_BP</SubtypeId>
       </Id>
-      <DisplayName>Rocket Launcher Blueprint</DisplayName>
+      <DisplayName>Ion Thrusters Blueprint</DisplayName>
       <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
       <Size>
         <X>0.1</X>
@@ -405,9 +125,9 @@
     <Component>
       <Id>
         <TypeId>Component</TypeId>
-        <SubtypeId>ERSA_VAN_IND_E1_BP</SubtypeId>
+        <SubtypeId>ERSA_VAN_PWR_A1_BP</SubtypeId>
       </Id>
-      <DisplayName>Advanced Refining Blueprint</DisplayName>
+      <DisplayName>Nuclear Reactors Blueprint</DisplayName>
       <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
       <Size>
         <X>0.1</X>
@@ -425,329 +145,9 @@
     <Component>
       <Id>
         <TypeId>Component</TypeId>
-        <SubtypeId>ERSA_VAN_IND_E2_BP</SubtypeId>
+        <SubtypeId>ERSA_VAN_PWR_A2_BP</SubtypeId>
       </Id>
-      <DisplayName>Energy Saving Blueprint</DisplayName>
-      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
-      <Size>
-        <X>0.1</X>
-        <Y>0.1</Y>
-        <Z>0.1</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>1</Volume>
-      <Model>Models\Components\research_blueprint_component.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>10</MaxIntegrity>
-      <DropProbability>0.25</DropProbability>
-      <Health>10</Health>
-    </Component>
-    <Component>
-      <Id>
-        <TypeId>Component</TypeId>
-        <SubtypeId>ERSA_VAN_IND_E3_BP</SubtypeId>
-      </Id>
-      <DisplayName>Effectivity Improvements Blueprint</DisplayName>
-      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
-      <Size>
-        <X>0.1</X>
-        <Y>0.1</Y>
-        <Z>0.1</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>1</Volume>
-      <Model>Models\Components\research_blueprint_component.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>10</MaxIntegrity>
-      <DropProbability>0.25</DropProbability>
-      <Health>10</Health>
-    </Component>
-    <Component>
-      <Id>
-        <TypeId>Component</TypeId>
-        <SubtypeId>ERSA_VAN_IND_E4_BP</SubtypeId>
-      </Id>
-      <DisplayName>Productivity Improvements Blueprint</DisplayName>
-      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
-      <Size>
-        <X>0.1</X>
-        <Y>0.1</Y>
-        <Z>0.1</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>1</Volume>
-      <Model>Models\Components\research_blueprint_component.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>10</MaxIntegrity>
-      <DropProbability>0.25</DropProbability>
-      <Health>10</Health>
-    </Component>
-    <Component>
-      <Id>
-        <TypeId>Component</TypeId>
-        <SubtypeId>ERSA_VAN_UTIL_B1_BP</SubtypeId>
-      </Id>
-      <DisplayName>Upscaled Detectors Blueprint</DisplayName>
-      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
-      <Size>
-        <X>0.1</X>
-        <Y>0.1</Y>
-        <Z>0.1</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>1</Volume>
-      <Model>Models\Components\research_blueprint_component.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>10</MaxIntegrity>
-      <DropProbability>0.25</DropProbability>
-      <Health>10</Health>
-    </Component>
-    <Component>
-      <Id>
-        <TypeId>Component</TypeId>
-        <SubtypeId>ERSA_VAN_UTIL_C1_BP</SubtypeId>
-      </Id>
-      <DisplayName>Holographic Projectors Blueprint</DisplayName>
-      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
-      <Size>
-        <X>0.1</X>
-        <Y>0.1</Y>
-        <Z>0.1</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>1</Volume>
-      <Model>Models\Components\research_blueprint_component.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>10</MaxIntegrity>
-      <DropProbability>0.25</DropProbability>
-      <Health>10</Health>
-    </Component>
-    <Component>
-      <Id>
-        <TypeId>Component</TypeId>
-        <SubtypeId>ERSA_VAN_UTIL_D1_BP</SubtypeId>
-      </Id>
-      <DisplayName>Reinforced Doors Blueprint</DisplayName>
-      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
-      <Size>
-        <X>0.1</X>
-        <Y>0.1</Y>
-        <Z>0.1</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>1</Volume>
-      <Model>Models\Components\research_blueprint_component.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>10</MaxIntegrity>
-      <DropProbability>0.25</DropProbability>
-      <Health>10</Health>
-    </Component>
-    <Component>
-      <Id>
-        <TypeId>Component</TypeId>
-        <SubtypeId>ERSA_VAN_UTIL_E1_BP</SubtypeId>
-      </Id>
-      <DisplayName>Upscaled Displays Blueprint</DisplayName>
-      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
-      <Size>
-        <X>0.1</X>
-        <Y>0.1</Y>
-        <Z>0.1</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>1</Volume>
-      <Model>Models\Components\research_blueprint_component.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>10</MaxIntegrity>
-      <DropProbability>0.25</DropProbability>
-      <Health>10</Health>
-    </Component>
-    <Component>
-      <Id>
-        <TypeId>Component</TypeId>
-        <SubtypeId>ERSA_VAN_UTIL_E2_BP</SubtypeId>
-      </Id>
-      <DisplayName>Widescreen Displays Blueprint</DisplayName>
-      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
-      <Size>
-        <X>0.1</X>
-        <Y>0.1</Y>
-        <Z>0.1</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>1</Volume>
-      <Model>Models\Components\research_blueprint_component.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>10</MaxIntegrity>
-      <DropProbability>0.25</DropProbability>
-      <Health>10</Health>
-    </Component>
-    <Component>
-      <Id>
-        <TypeId>Component</TypeId>
-        <SubtypeId>ERSA_VAN_UTIL_F1_BP</SubtypeId>
-      </Id>
-      <DisplayName>Miniaturized Displays Blueprint</DisplayName>
-      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
-      <Size>
-        <X>0.1</X>
-        <Y>0.1</Y>
-        <Z>0.1</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>1</Volume>
-      <Model>Models\Components\research_blueprint_component.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>10</MaxIntegrity>
-      <DropProbability>0.25</DropProbability>
-      <Health>10</Health>
-    </Component>
-    <Component>
-      <Id>
-        <TypeId>Component</TypeId>
-        <SubtypeId>ERSA_VAN_UTIL_G1_BP</SubtypeId>
-      </Id>
-      <DisplayName>Upscaled Cockpits Blueprint</DisplayName>
-      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
-      <Size>
-        <X>0.1</X>
-        <Y>0.1</Y>
-        <Z>0.1</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>1</Volume>
-      <Model>Models\Components\research_blueprint_component.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>10</MaxIntegrity>
-      <DropProbability>0.25</DropProbability>
-      <Health>10</Health>
-    </Component>
-    <Component>
-      <Id>
-        <TypeId>Component</TypeId>
-        <SubtypeId>ERSA_VAN_UTIL_G2_BP</SubtypeId>
-      </Id>
-      <DisplayName>Control Consoles Blueprint</DisplayName>
-      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
-      <Size>
-        <X>0.1</X>
-        <Y>0.1</Y>
-        <Z>0.1</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>1</Volume>
-      <Model>Models\Components\research_blueprint_component.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>10</MaxIntegrity>
-      <DropProbability>0.25</DropProbability>
-      <Health>10</Health>
-    </Component>
-    <Component>
-      <Id>
-        <TypeId>Component</TypeId>
-        <SubtypeId>ERSA_VAN_UTIL_H1_BP</SubtypeId>
-      </Id>
-      <DisplayName>Advanced Cockpits Blueprint</DisplayName>
-      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
-      <Size>
-        <X>0.1</X>
-        <Y>0.1</Y>
-        <Z>0.1</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>1</Volume>
-      <Model>Models\Components\research_blueprint_component.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>10</MaxIntegrity>
-      <DropProbability>0.25</DropProbability>
-      <Health>10</Health>
-    </Component>
-    <Component>
-      <Id>
-        <TypeId>Component</TypeId>
-        <SubtypeId>ERSA_VAN_UTIL_I1_BP</SubtypeId>
-      </Id>
-      <DisplayName>Upscaled Gyroscopes Blueprint</DisplayName>
-      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
-      <Size>
-        <X>0.1</X>
-        <Y>0.1</Y>
-        <Z>0.1</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>1</Volume>
-      <Model>Models\Components\research_blueprint_component.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>10</MaxIntegrity>
-      <DropProbability>0.25</DropProbability>
-      <Health>10</Health>
-    </Component>
-    <Component>
-      <Id>
-        <TypeId>Component</TypeId>
-        <SubtypeId>ERSA_VAN_UTIL_J1_BP</SubtypeId>
-      </Id>
-      <DisplayName>Upscaled Landing Gears Blueprint</DisplayName>
-      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
-      <Size>
-        <X>0.1</X>
-        <Y>0.1</Y>
-        <Z>0.1</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>1</Volume>
-      <Model>Models\Components\research_blueprint_component.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>10</MaxIntegrity>
-      <DropProbability>0.25</DropProbability>
-      <Health>10</Health>
-    </Component>
-    <Component>
-      <Id>
-        <TypeId>Component</TypeId>
-        <SubtypeId>ERSA_VAN_DEF_A1_BP</SubtypeId>
-      </Id>
-      <DisplayName>Mass Generation Blueprint</DisplayName>
-      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
-      <Size>
-        <X>0.1</X>
-        <Y>0.1</Y>
-        <Z>0.1</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>1</Volume>
-      <Model>Models\Components\research_blueprint_component.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>10</MaxIntegrity>
-      <DropProbability>0.25</DropProbability>
-      <Health>10</Health>
-    </Component>
-    <Component>
-      <Id>
-        <TypeId>Component</TypeId>
-        <SubtypeId>ERSA_VAN_DEF_A2_BP</SubtypeId>
-      </Id>
-      <DisplayName>Gravity Generation Blueprint</DisplayName>
-      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
-      <Size>
-        <X>0.1</X>
-        <Y>0.1</Y>
-        <Z>0.1</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>1</Volume>
-      <Model>Models\Components\research_blueprint_component.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>10</MaxIntegrity>
-      <DropProbability>0.25</DropProbability>
-      <Health>10</Health>
-    </Component>
-    <Component>
-      <Id>
-        <TypeId>Component</TypeId>
-        <SubtypeId>ERSA_VAN_DEF_A3_BP</SubtypeId>
-      </Id>
-      <DisplayName>FTL Travel Blueprint</DisplayName>
+      <DisplayName>Upscaled Reactors Blueprint</DisplayName>
       <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
       <Size>
         <X>0.1</X>
@@ -805,26 +205,6 @@
     <Component>
       <Id>
         <TypeId>Component</TypeId>
-        <SubtypeId>ERSA_VAN_UTIL_K1_BP</SubtypeId>
-      </Id>
-      <DisplayName>Miniaturized O2/H2 Generators Blueprint</DisplayName>
-      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
-      <Size>
-        <X>0.1</X>
-        <Y>0.1</Y>
-        <Z>0.1</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>1</Volume>
-      <Model>Models\Components\research_blueprint_component.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>10</MaxIntegrity>
-      <DropProbability>0.25</DropProbability>
-      <Health>10</Health>
-    </Component>
-    <Component>
-      <Id>
-        <TypeId>Component</TypeId>
         <SubtypeId>ERSA_VAN_STOR_B1_BP</SubtypeId>
       </Id>
       <DisplayName>Upscaled Tanks Blueprint</DisplayName>
@@ -845,9 +225,9 @@
     <Component>
       <Id>
         <TypeId>Component</TypeId>
-        <SubtypeId>ERSA_VAN_UTIL_K2_BP</SubtypeId>
+        <SubtypeId>ERSA_VAN_STOR_B2_BP</SubtypeId>
       </Id>
-      <DisplayName>Oxygen Collection Blueprint</DisplayName>
+      <DisplayName>Advanced Tanks Blueprint</DisplayName>
       <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
       <Size>
         <X>0.1</X>
@@ -865,9 +245,189 @@
     <Component>
       <Id>
         <TypeId>Component</TypeId>
-        <SubtypeId>ERSA_VAN_UTIL_L1_BP</SubtypeId>
+        <SubtypeId>ERSA_VAN_STOR_C1_BP</SubtypeId>
       </Id>
-      <DisplayName>Upscaled Vents Blueprint</DisplayName>
+      <DisplayName>Item Transfer Blueprint</DisplayName>
+      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\research_blueprint_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.25</DropProbability>
+      <Health>10</Health>
+    </Component>
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ERSA_VAN_STOR_C2_BP</SubtypeId>
+      </Id>
+      <DisplayName>Advanced Item Transfer Blueprint</DisplayName>
+      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\research_blueprint_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.25</DropProbability>
+      <Health>10</Health>
+    </Component>
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ERSA_VAN_STOR_C3_BP</SubtypeId>
+      </Id>
+      <DisplayName>Flexible Item Transfer Blueprint</DisplayName>
+      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\research_blueprint_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.25</DropProbability>
+      <Health>10</Health>
+    </Component>
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ERSA_VAN_IND_A1_BP</SubtypeId>
+      </Id>
+      <DisplayName>Upscaled Drills Blueprint</DisplayName>
+      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\research_blueprint_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.25</DropProbability>
+      <Health>10</Health>
+    </Component>
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ERSA_VAN_IND_A2_BP</SubtypeId>
+      </Id>
+      <DisplayName>Upscaled Grinders Blueprint</DisplayName>
+      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\research_blueprint_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.25</DropProbability>
+      <Health>10</Health>
+    </Component>
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ERSA_VAN_IND_A3_BP</SubtypeId>
+      </Id>
+      <DisplayName>Upscaled Welders Blueprint</DisplayName>
+      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\research_blueprint_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.25</DropProbability>
+      <Health>10</Health>
+    </Component>
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ERSA_VAN_IND_B1_BP</SubtypeId>
+      </Id>
+      <DisplayName>Advanced Refining Blueprint</DisplayName>
+      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\research_blueprint_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.25</DropProbability>
+      <Health>10</Health>
+    </Component>
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ERSA_VAN_IND_B2_BP</SubtypeId>
+      </Id>
+      <DisplayName>Energy Saving Blueprint</DisplayName>
+      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\research_blueprint_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.25</DropProbability>
+      <Health>10</Health>
+    </Component>
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ERSA_VAN_IND_B3_BP</SubtypeId>
+      </Id>
+      <DisplayName>Effectivity Improvements Blueprint</DisplayName>
+      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\research_blueprint_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.25</DropProbability>
+      <Health>10</Health>
+    </Component>
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ERSA_VAN_IND_B4_BP</SubtypeId>
+      </Id>
+      <DisplayName>Productivity Improvements Blueprint</DisplayName>
       <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
       <Size>
         <X>0.1</X>
@@ -947,6 +507,26 @@
         <TypeId>Component</TypeId>
         <SubtypeId>ERSA_VAN_AUT_B2_BP</SubtypeId>
       </Id>
+      <DisplayName>Action Sequencing Blueprint</DisplayName>
+      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\research_blueprint_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.25</DropProbability>
+      <Health>10</Health>
+    </Component>
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ERSA_VAN_AUT_B3_BP</SubtypeId>
+      </Id>
       <DisplayName>Logic Processors Blueprint</DisplayName>
       <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
       <Size>
@@ -965,9 +545,9 @@
     <Component>
       <Id>
         <TypeId>Component</TypeId>
-        <SubtypeId>ERSA_VAN_STOR_C1_BP</SubtypeId>
+        <SubtypeId>ERSA_VAN_DEF_A1_BP</SubtypeId>
       </Id>
-      <DisplayName>Transfer Automation Blueprint</DisplayName>
+      <DisplayName>Mass Generation Blueprint</DisplayName>
       <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
       <Size>
         <X>0.1</X>
@@ -985,9 +565,29 @@
     <Component>
       <Id>
         <TypeId>Component</TypeId>
-        <SubtypeId>ERSA_VAN_UTIL_M1_BP</SubtypeId>
+        <SubtypeId>ERSA_VAN_DEF_A2_BP</SubtypeId>
       </Id>
-      <DisplayName>Upscaled Doors Blueprint</DisplayName>
+      <DisplayName>Gravity Generation Blueprint</DisplayName>
+      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\research_blueprint_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.25</DropProbability>
+      <Health>10</Health>
+    </Component>
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ERSA_VAN_DEF_A3_BP</SubtypeId>
+      </Id>
+      <DisplayName>FTL Travel Blueprint</DisplayName>
       <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
       <Size>
         <X>0.1</X>
@@ -1025,47 +625,307 @@
     <Component>
       <Id>
         <TypeId>Component</TypeId>
+        <SubtypeId>ERSA_VAN_UTIL_A1_BP</SubtypeId>
+      </Id>
+      <DisplayName>Positional Markers Blueprint</DisplayName>
+      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\research_blueprint_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.25</DropProbability>
+      <Health>10</Health>
+    </Component>
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ERSA_VAN_UTIL_A2_BP</SubtypeId>
+      </Id>
+      <DisplayName>Short-Range Communications Blueprint</DisplayName>
+      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\research_blueprint_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.25</DropProbability>
+      <Health>10</Health>
+    </Component>
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ERSA_VAN_UTIL_A3_BP</SubtypeId>
+      </Id>
+      <DisplayName>Long-Range Communications Blueprint</DisplayName>
+      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\research_blueprint_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.25</DropProbability>
+      <Health>10</Health>
+    </Component>
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ERSA_VAN_UTIL_B1_BP</SubtypeId>
+      </Id>
+      <DisplayName>Upscaled Detectors Blueprint</DisplayName>
+      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\research_blueprint_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.25</DropProbability>
+      <Health>10</Health>
+    </Component>
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ERSA_VAN_UTIL_C1_BP</SubtypeId>
+      </Id>
+      <DisplayName>Holographic Projectors Blueprint</DisplayName>
+      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\research_blueprint_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.25</DropProbability>
+      <Health>10</Health>
+    </Component>
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ERSA_VAN_UTIL_D1_BP</SubtypeId>
+      </Id>
+      <DisplayName>Reinforced Doors Blueprint</DisplayName>
+      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\research_blueprint_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.25</DropProbability>
+      <Health>10</Health>
+    </Component>
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ERSA_VAN_UTIL_D2_BP</SubtypeId>
+      </Id>
+      <DisplayName>Upscaled Doors Blueprint</DisplayName>
+      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\research_blueprint_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.25</DropProbability>
+      <Health>10</Health>
+    </Component>
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ERSA_VAN_UTIL_E1_BP</SubtypeId>
+      </Id>
+      <DisplayName>Control Consoles Blueprint</DisplayName>
+      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\research_blueprint_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.25</DropProbability>
+      <Health>10</Health>
+    </Component>
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ERSA_VAN_UTIL_E2_BP</SubtypeId>
+      </Id>
+      <DisplayName>Advanced Cockpits Blueprint</DisplayName>
+      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\research_blueprint_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.25</DropProbability>
+      <Health>10</Health>
+    </Component>
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ERSA_VAN_UTIL_F1_BP</SubtypeId>
+      </Id>
+      <DisplayName>Automatic Vents Blueprint</DisplayName>
+      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\research_blueprint_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.25</DropProbability>
+      <Health>10</Health>
+    </Component>
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ERSA_VAN_UTIL_F2_BP</SubtypeId>
+      </Id>
+      <DisplayName>Oxygen Collection Blueprint</DisplayName>
+      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\research_blueprint_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.25</DropProbability>
+      <Health>10</Health>
+    </Component>
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ERSA_VAN_COM_A1_BP</SubtypeId>
+      </Id>
+      <DisplayName>Targeting Disruption Blueprint</DisplayName>
+      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\research_blueprint_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.25</DropProbability>
+      <Health>10</Health>
+    </Component>
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ERSA_VAN_COM_A2_BP</SubtypeId>
+      </Id>
+      <DisplayName>Automatic Turrets Blueprint</DisplayName>
+      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\research_blueprint_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.25</DropProbability>
+      <Health>10</Health>
+    </Component>
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ERSA_VAN_COM_A3_BP</SubtypeId>
+      </Id>
+      <DisplayName>Automatic Reload Systems Blueprint</DisplayName>
+      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\research_blueprint_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.25</DropProbability>
+      <Health>10</Health>
+    </Component>
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ERSA_VAN_COM_B1_BP</SubtypeId>
+      </Id>
+      <DisplayName>Rocket Launchers Blueprint</DisplayName>
+      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\research_blueprint_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.25</DropProbability>
+      <Health>10</Health>
+    </Component>
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
         <SubtypeId>ERSA_VAN_ARM_A1_BP</SubtypeId>
-      </Id>
-      <DisplayName>Reinforced Armor Blueprint</DisplayName>
-      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
-      <Size>
-        <X>0.1</X>
-        <Y>0.1</Y>
-        <Z>0.1</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>1</Volume>
-      <Model>Models\Components\research_blueprint_component.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>10</MaxIntegrity>
-      <DropProbability>0.25</DropProbability>
-      <Health>10</Health>
-    </Component>
-    <Component>
-      <Id>
-        <TypeId>Component</TypeId>
-        <SubtypeId>ERSA_VAN_ARM_A2_BP</SubtypeId>
-      </Id>
-      <DisplayName>Upscaled Reinforced Armor Blueprint</DisplayName>
-      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
-      <Size>
-        <X>0.1</X>
-        <Y>0.1</Y>
-        <Z>0.1</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>1</Volume>
-      <Model>Models\Components\research_blueprint_component.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>10</MaxIntegrity>
-      <DropProbability>0.25</DropProbability>
-      <Health>10</Health>
-    </Component>
-    <Component>
-      <Id>
-        <TypeId>Component</TypeId>
-        <SubtypeId>ERSA_VAN_ARM_A3_BP</SubtypeId>
       </Id>
       <DisplayName>Blast Protection Blueprint</DisplayName>
       <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>

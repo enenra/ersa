@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!-- Created by ERSA Editor version 0.75 on: 2019-01-21 22:24 -->
+<!-- Created by ERSA Editor version 0.75 on: 2019-01-22 20:53 -->
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <EntityComponents>
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
@@ -15,67 +15,11 @@
         </Entry>
         <Entry>
           <TypeId>MyObjectBuilder_Component</TypeId>
-          <SubtypeId>ERSA_VAN_LOC_B3_BP</SubtypeId>
+          <SubtypeId>ERSA_VAN_LOC_A2_BP</SubtypeId>
         </Entry>
         <Entry>
           <TypeId>MyObjectBuilder_Component</TypeId>
-          <SubtypeId>ERSA_VAN_LOC_B4_BP</SubtypeId>
-        </Entry>
-        <Entry>
-          <TypeId>MyObjectBuilder_Component</TypeId>
-          <SubtypeId>ERSA_VAN_UTIL_A2_BP</SubtypeId>
-        </Entry>
-        <Entry>
-          <TypeId>MyObjectBuilder_Component</TypeId>
-          <SubtypeId>ERSA_VAN_UTIL_A3_BP</SubtypeId>
-        </Entry>
-        <Entry>
-          <TypeId>MyObjectBuilder_Component</TypeId>
-          <SubtypeId>ERSA_VAN_PWR_A1_BP</SubtypeId>
-        </Entry>
-        <Entry>
-          <TypeId>MyObjectBuilder_Component</TypeId>
-          <SubtypeId>ERSA_VAN_COM_A1_BP</SubtypeId>
-        </Entry>
-        <Entry>
-          <TypeId>MyObjectBuilder_Component</TypeId>
-          <SubtypeId>ERSA_VAN_COM_B2_BP</SubtypeId>
-        </Entry>
-        <Entry>
-          <TypeId>MyObjectBuilder_Component</TypeId>
-          <SubtypeId>ERSA_VAN_COM_C1_BP</SubtypeId>
-        </Entry>
-        <Entry>
-          <TypeId>MyObjectBuilder_Component</TypeId>
-          <SubtypeId>ERSA_VAN_IND_A1_BP</SubtypeId>
-        </Entry>
-        <Entry>
-          <TypeId>MyObjectBuilder_Component</TypeId>
-          <SubtypeId>ERSA_VAN_IND_A2_BP</SubtypeId>
-        </Entry>
-        <Entry>
-          <TypeId>MyObjectBuilder_Component</TypeId>
-          <SubtypeId>ERSA_VAN_IND_B1_BP</SubtypeId>
-        </Entry>
-        <Entry>
-          <TypeId>MyObjectBuilder_Component</TypeId>
-          <SubtypeId>ERSA_VAN_IND_B2_BP</SubtypeId>
-        </Entry>
-        <Entry>
-          <TypeId>MyObjectBuilder_Component</TypeId>
-          <SubtypeId>ERSA_VAN_IND_C1_BP</SubtypeId>
-        </Entry>
-        <Entry>
-          <TypeId>MyObjectBuilder_Component</TypeId>
-          <SubtypeId>ERSA_VAN_IND_C2_BP</SubtypeId>
-        </Entry>
-        <Entry>
-          <TypeId>MyObjectBuilder_Component</TypeId>
-          <SubtypeId>ERSA_VAN_UTIL_A1_BP</SubtypeId>
-        </Entry>
-        <Entry>
-          <TypeId>MyObjectBuilder_Component</TypeId>
-          <SubtypeId>ERSA_VAN_PWR_A2_BP</SubtypeId>
+          <SubtypeId>ERSA_VAN_LOC_A3_BP</SubtypeId>
         </Entry>
         <Entry>
           <TypeId>MyObjectBuilder_Component</TypeId>
@@ -87,79 +31,15 @@
         </Entry>
         <Entry>
           <TypeId>MyObjectBuilder_Component</TypeId>
-          <SubtypeId>ERSA_VAN_COM_B1_BP</SubtypeId>
+          <SubtypeId>ERSA_VAN_LOC_B3_BP</SubtypeId>
         </Entry>
         <Entry>
           <TypeId>MyObjectBuilder_Component</TypeId>
-          <SubtypeId>ERSA_VAN_IND_E1_BP</SubtypeId>
+          <SubtypeId>ERSA_VAN_PWR_A1_BP</SubtypeId>
         </Entry>
         <Entry>
           <TypeId>MyObjectBuilder_Component</TypeId>
-          <SubtypeId>ERSA_VAN_IND_E2_BP</SubtypeId>
-        </Entry>
-        <Entry>
-          <TypeId>MyObjectBuilder_Component</TypeId>
-          <SubtypeId>ERSA_VAN_IND_E3_BP</SubtypeId>
-        </Entry>
-        <Entry>
-          <TypeId>MyObjectBuilder_Component</TypeId>
-          <SubtypeId>ERSA_VAN_IND_E4_BP</SubtypeId>
-        </Entry>
-        <Entry>
-          <TypeId>MyObjectBuilder_Component</TypeId>
-          <SubtypeId>ERSA_VAN_UTIL_B1_BP</SubtypeId>
-        </Entry>
-        <Entry>
-          <TypeId>MyObjectBuilder_Component</TypeId>
-          <SubtypeId>ERSA_VAN_UTIL_C1_BP</SubtypeId>
-        </Entry>
-        <Entry>
-          <TypeId>MyObjectBuilder_Component</TypeId>
-          <SubtypeId>ERSA_VAN_UTIL_D1_BP</SubtypeId>
-        </Entry>
-        <Entry>
-          <TypeId>MyObjectBuilder_Component</TypeId>
-          <SubtypeId>ERSA_VAN_UTIL_E1_BP</SubtypeId>
-        </Entry>
-        <Entry>
-          <TypeId>MyObjectBuilder_Component</TypeId>
-          <SubtypeId>ERSA_VAN_UTIL_E2_BP</SubtypeId>
-        </Entry>
-        <Entry>
-          <TypeId>MyObjectBuilder_Component</TypeId>
-          <SubtypeId>ERSA_VAN_UTIL_F1_BP</SubtypeId>
-        </Entry>
-        <Entry>
-          <TypeId>MyObjectBuilder_Component</TypeId>
-          <SubtypeId>ERSA_VAN_UTIL_G1_BP</SubtypeId>
-        </Entry>
-        <Entry>
-          <TypeId>MyObjectBuilder_Component</TypeId>
-          <SubtypeId>ERSA_VAN_UTIL_G2_BP</SubtypeId>
-        </Entry>
-        <Entry>
-          <TypeId>MyObjectBuilder_Component</TypeId>
-          <SubtypeId>ERSA_VAN_UTIL_H1_BP</SubtypeId>
-        </Entry>
-        <Entry>
-          <TypeId>MyObjectBuilder_Component</TypeId>
-          <SubtypeId>ERSA_VAN_UTIL_I1_BP</SubtypeId>
-        </Entry>
-        <Entry>
-          <TypeId>MyObjectBuilder_Component</TypeId>
-          <SubtypeId>ERSA_VAN_UTIL_J1_BP</SubtypeId>
-        </Entry>
-        <Entry>
-          <TypeId>MyObjectBuilder_Component</TypeId>
-          <SubtypeId>ERSA_VAN_DEF_A1_BP</SubtypeId>
-        </Entry>
-        <Entry>
-          <TypeId>MyObjectBuilder_Component</TypeId>
-          <SubtypeId>ERSA_VAN_DEF_A2_BP</SubtypeId>
-        </Entry>
-        <Entry>
-          <TypeId>MyObjectBuilder_Component</TypeId>
-          <SubtypeId>ERSA_VAN_DEF_A3_BP</SubtypeId>
+          <SubtypeId>ERSA_VAN_PWR_A2_BP</SubtypeId>
         </Entry>
         <Entry>
           <TypeId>MyObjectBuilder_Component</TypeId>
@@ -171,19 +51,51 @@
         </Entry>
         <Entry>
           <TypeId>MyObjectBuilder_Component</TypeId>
-          <SubtypeId>ERSA_VAN_UTIL_K1_BP</SubtypeId>
-        </Entry>
-        <Entry>
-          <TypeId>MyObjectBuilder_Component</TypeId>
           <SubtypeId>ERSA_VAN_STOR_B1_BP</SubtypeId>
         </Entry>
         <Entry>
           <TypeId>MyObjectBuilder_Component</TypeId>
-          <SubtypeId>ERSA_VAN_UTIL_K2_BP</SubtypeId>
+          <SubtypeId>ERSA_VAN_STOR_B2_BP</SubtypeId>
         </Entry>
         <Entry>
           <TypeId>MyObjectBuilder_Component</TypeId>
-          <SubtypeId>ERSA_VAN_UTIL_L1_BP</SubtypeId>
+          <SubtypeId>ERSA_VAN_STOR_C1_BP</SubtypeId>
+        </Entry>
+        <Entry>
+          <TypeId>MyObjectBuilder_Component</TypeId>
+          <SubtypeId>ERSA_VAN_STOR_C2_BP</SubtypeId>
+        </Entry>
+        <Entry>
+          <TypeId>MyObjectBuilder_Component</TypeId>
+          <SubtypeId>ERSA_VAN_STOR_C3_BP</SubtypeId>
+        </Entry>
+        <Entry>
+          <TypeId>MyObjectBuilder_Component</TypeId>
+          <SubtypeId>ERSA_VAN_IND_A1_BP</SubtypeId>
+        </Entry>
+        <Entry>
+          <TypeId>MyObjectBuilder_Component</TypeId>
+          <SubtypeId>ERSA_VAN_IND_A2_BP</SubtypeId>
+        </Entry>
+        <Entry>
+          <TypeId>MyObjectBuilder_Component</TypeId>
+          <SubtypeId>ERSA_VAN_IND_A3_BP</SubtypeId>
+        </Entry>
+        <Entry>
+          <TypeId>MyObjectBuilder_Component</TypeId>
+          <SubtypeId>ERSA_VAN_IND_B1_BP</SubtypeId>
+        </Entry>
+        <Entry>
+          <TypeId>MyObjectBuilder_Component</TypeId>
+          <SubtypeId>ERSA_VAN_IND_B2_BP</SubtypeId>
+        </Entry>
+        <Entry>
+          <TypeId>MyObjectBuilder_Component</TypeId>
+          <SubtypeId>ERSA_VAN_IND_B3_BP</SubtypeId>
+        </Entry>
+        <Entry>
+          <TypeId>MyObjectBuilder_Component</TypeId>
+          <SubtypeId>ERSA_VAN_IND_B4_BP</SubtypeId>
         </Entry>
         <Entry>
           <TypeId>MyObjectBuilder_Component</TypeId>
@@ -203,11 +115,19 @@
         </Entry>
         <Entry>
           <TypeId>MyObjectBuilder_Component</TypeId>
-          <SubtypeId>ERSA_VAN_STOR_C1_BP</SubtypeId>
+          <SubtypeId>ERSA_VAN_AUT_B3_BP</SubtypeId>
         </Entry>
         <Entry>
           <TypeId>MyObjectBuilder_Component</TypeId>
-          <SubtypeId>ERSA_VAN_UTIL_M1_BP</SubtypeId>
+          <SubtypeId>ERSA_VAN_DEF_A1_BP</SubtypeId>
+        </Entry>
+        <Entry>
+          <TypeId>MyObjectBuilder_Component</TypeId>
+          <SubtypeId>ERSA_VAN_DEF_A2_BP</SubtypeId>
+        </Entry>
+        <Entry>
+          <TypeId>MyObjectBuilder_Component</TypeId>
+          <SubtypeId>ERSA_VAN_DEF_A3_BP</SubtypeId>
         </Entry>
         <Entry>
           <TypeId>MyObjectBuilder_Component</TypeId>
@@ -215,15 +135,67 @@
         </Entry>
         <Entry>
           <TypeId>MyObjectBuilder_Component</TypeId>
+          <SubtypeId>ERSA_VAN_UTIL_A1_BP</SubtypeId>
+        </Entry>
+        <Entry>
+          <TypeId>MyObjectBuilder_Component</TypeId>
+          <SubtypeId>ERSA_VAN_UTIL_A2_BP</SubtypeId>
+        </Entry>
+        <Entry>
+          <TypeId>MyObjectBuilder_Component</TypeId>
+          <SubtypeId>ERSA_VAN_UTIL_A3_BP</SubtypeId>
+        </Entry>
+        <Entry>
+          <TypeId>MyObjectBuilder_Component</TypeId>
+          <SubtypeId>ERSA_VAN_UTIL_B1_BP</SubtypeId>
+        </Entry>
+        <Entry>
+          <TypeId>MyObjectBuilder_Component</TypeId>
+          <SubtypeId>ERSA_VAN_UTIL_C1_BP</SubtypeId>
+        </Entry>
+        <Entry>
+          <TypeId>MyObjectBuilder_Component</TypeId>
+          <SubtypeId>ERSA_VAN_UTIL_D1_BP</SubtypeId>
+        </Entry>
+        <Entry>
+          <TypeId>MyObjectBuilder_Component</TypeId>
+          <SubtypeId>ERSA_VAN_UTIL_D2_BP</SubtypeId>
+        </Entry>
+        <Entry>
+          <TypeId>MyObjectBuilder_Component</TypeId>
+          <SubtypeId>ERSA_VAN_UTIL_E1_BP</SubtypeId>
+        </Entry>
+        <Entry>
+          <TypeId>MyObjectBuilder_Component</TypeId>
+          <SubtypeId>ERSA_VAN_UTIL_E2_BP</SubtypeId>
+        </Entry>
+        <Entry>
+          <TypeId>MyObjectBuilder_Component</TypeId>
+          <SubtypeId>ERSA_VAN_UTIL_F1_BP</SubtypeId>
+        </Entry>
+        <Entry>
+          <TypeId>MyObjectBuilder_Component</TypeId>
+          <SubtypeId>ERSA_VAN_UTIL_F2_BP</SubtypeId>
+        </Entry>
+        <Entry>
+          <TypeId>MyObjectBuilder_Component</TypeId>
+          <SubtypeId>ERSA_VAN_COM_A1_BP</SubtypeId>
+        </Entry>
+        <Entry>
+          <TypeId>MyObjectBuilder_Component</TypeId>
+          <SubtypeId>ERSA_VAN_COM_A2_BP</SubtypeId>
+        </Entry>
+        <Entry>
+          <TypeId>MyObjectBuilder_Component</TypeId>
+          <SubtypeId>ERSA_VAN_COM_A3_BP</SubtypeId>
+        </Entry>
+        <Entry>
+          <TypeId>MyObjectBuilder_Component</TypeId>
+          <SubtypeId>ERSA_VAN_COM_B1_BP</SubtypeId>
+        </Entry>
+        <Entry>
+          <TypeId>MyObjectBuilder_Component</TypeId>
           <SubtypeId>ERSA_VAN_ARM_A1_BP</SubtypeId>
-        </Entry>
-        <Entry>
-          <TypeId>MyObjectBuilder_Component</TypeId>
-          <SubtypeId>ERSA_VAN_ARM_A2_BP</SubtypeId>
-        </Entry>
-        <Entry>
-          <TypeId>MyObjectBuilder_Component</TypeId>
-          <SubtypeId>ERSA_VAN_ARM_A3_BP</SubtypeId>
         </Entry>
       </InputConstraint>
     </EntityComponent>

@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!-- Created by ERSA Editor version 0.75 on: 2019-01-22 21:04 -->
+<!-- Created by ERSA Editor version 1.1 on: 2019-01-24 12:01 -->
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Blueprints>
     <Blueprint>
@@ -307,8 +307,6 @@
       <Icon>Textures\GUI\Icons\ERSA_research_industry.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_IND_B1_BP" />
-        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_IND_B2_BP" />
-        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_IND_B3_BP" />
         <Item Amount="20" TypeId="Component" SubtypeId="ERSA_EnhancedResearchMaterial" />
       </Prerequisites>
       <Results>
@@ -325,7 +323,6 @@
       <Icon>Textures\GUI\Icons\ERSA_research_industry.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_IND_B2_BP" />
-        <Item Amount="1" TypeId="Component" SubtypeId="ERSA_VAN_IND_B3_BP" />
         <Item Amount="20" TypeId="Component" SubtypeId="ERSA_AdvancedResearchMaterial" />
       </Prerequisites>
       <Results>
